@@ -1,0 +1,63 @@
+body{
+  background-color: lightcoral;
+}
+img{
+  bottom: 0;
+  display: block;
+  height: 30px;
+  left: 50%;
+  margin-left: -40px;
+  opacity: .5;
+  position: absolute;
+  top: 5px;
+  width: 80px;
+  text-align: center;
+}
+.btnTable{
+  background: hsla(0,0%,100%,.3);
+  border: none;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  font-weight: 700;
+  line-height: 32px;
+  margin-right: 4px;
+  min-width: 32px;
+  margin: 1%;
+}
+.headerTrello{
+  color: white;
+}
+.fa-trello{
+  color: white;
+  color: white;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+}
+#inputSearch{
+  background-color: hsla(0,0%,100%,.3);
+  border-radius: 3px;
+  border: none;
+  color: hsla(0,0%,100%,.5);
+  float: left;
+  font-size: 13px;
+  height: 32px;
+  margin: 1%;
+  min-height: 37px;
+  padding-right: 32px;
+  padding-left: 8px;
+  line-height: 19px;
+  transition: width .15s;
+  width: 180px;
+  z-index: 1;
+}
+.headerSearch{
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  margin-left: -4%;
+  margin-top: 2%;
+  color: white;
+}
