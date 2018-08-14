@@ -1,6 +1,7 @@
 body{
   background-image: url(https://images.pexels.com/photos/1124960/pexels-photo-1124960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
+/*Estilo de header*/
 #headerNav{
   background-color: rgba(0, 0, 0, 0.384);
   width: 100%;
@@ -29,8 +30,8 @@ body{
   text-align: center;
 }
 #imgUser{
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
   border-radius: 25em;
   
 }
@@ -80,7 +81,7 @@ body{
   top: 4px;
   right: 0;
 }
-#btnPlus{
+#btnPlus, #btnInfo, #btnBell, #btnHome{
   transition: .1s ease;
   background: hsla(0,0%,100%,.3);
   border-radius: 3px;
@@ -96,4 +97,10 @@ body{
   border: none;
   height: 40px;
   width: 40px;
+}
+.fa-plus, .fa-info-circle, .fa-bell, .fa-home{
+  text-align: center;
+  font-size: 20px;
+  line-height: 38px;
+  width: 32px;
 }
