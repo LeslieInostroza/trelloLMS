@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="src/CSS/style.css">
 </head>
 <body>
-  <header>
-    <img src="assets/img/trello-logo-white-1024x315.png" alt="">
+  <header id="headerNav">
+    <img id ="imgLogo"src="assets/img/trello-logo-white-1024x315.png" alt="">
     <button class ="btnTable">
       <i class="fab fa-trello"></i>
       <span class="headerTrello">Tableros</span>
@@ -23,6 +23,26 @@
       <span class="headerSearch">
           <i class="fas fa-search"></i>
       </span>
+
+      <div class="headerIcon">
+          <button id="btnPlus">
+              <span class="headerPlus">
+                  <i class="fas fa-plus"></i>
+              </span>
+            </button>
+            <button id="btnInfo">
+              <span class="headerInfo">
+                  <i class="fas fa-info-circle"></i>
+              </span>
+            </button>
+            <button id="btnBell">
+              <span class="headerBell">
+                  <i class="far fa-bell"></i>
+              </span>
+            </button>
+            <img id ="imgUser"src="assets/img/default-user.png" alt="">
+      </div>
+      
   </header>
   <!-- link bootstrap Js -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
