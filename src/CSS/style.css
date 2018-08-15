@@ -1,5 +1,5 @@
 body{
-  background-image: url(https://images.pexels.com/photos/1124960/pexels-photo-1124960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 /*Estilo de header*/
 #headerNav{
@@ -26,7 +26,7 @@ body{
   opacity: 1.5;
   position: absolute;
   top: 9px;
-  width: 80px;
+  width: 85px;
   text-align: center;
 }
 #imgUser{
@@ -58,7 +58,7 @@ body{
   background-color: hsla(0,0%,100%,.3);
   border-radius: 3px;
   border: none;
-  color: hsla(0,0%,100%,.5);
+  color:solid, black;
   float: left;
   height: 40px;
   margin: 0;
@@ -103,4 +103,84 @@ body{
   font-size: 20px;
   line-height: 38px;
   width: 32px;
+}
+/*Estilos Seccion Menu 2*/
+#menuSecond{
+  padding: 8px 4px 8px 8px;
+}
+#btnTitleProyect{
+  cursor: default;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 4px;
+  border: none;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #f6f6f6;
+  height: 32px;
+  position: relative;
+}
+#spanTitleProyect{
+  padding-left: 10px;
+  padding-right: 8px;
+  font-size: 22px;
+}
+#btnStar, #btnPersonal, #btnPrivado{
+  background-color: transparent;
+  border:none;
+}
+.fa-star{
+  color: yellow;
+}
+.divider{
+  color: white;
+}
+#spanPersonal, #spanPrivado{
+  color: #f6f6f6;
+  font-size: 18px;
+}
+.fa-lock{
+  color: white;
+  margin-right: 5px;
+}
+#imgUserTwo{
+  height: 38px;
+  width: 38px;
+  border-radius: 25em;
+  margin-left: 7px;
+}
+#btnNumber{
+  background: hsla(0,0%,100%,.3);
+  border: none;
+  border-radius: 25em;
+  height: 38px;
+  width: 38px;
+  color: white;
+  margin-right: 17px;
+  margin-left: -28px
+}
+#btnAddUser{
+  background: hsla(0,0%,100%,.3);
+  border: none;
+  border-radius: 25em;
+  height: 38px;
+  width: 38px;
+  color: white;
+  margin-right: 17px;
+}
+#spanNumber{
+  font-weight: 700;
+}
+#btnLI{
+  border: none;
+  border-radius: 25em;
+  height: 38px;
+  width: 38px;
+  color: white;
+  margin-right: 17px;
+  margin-left: -12px
+}
+#LI{
+  color: rgb(27, 27, 27);
+  font-weight: 700;
 }
